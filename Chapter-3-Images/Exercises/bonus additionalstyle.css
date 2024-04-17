@@ -1,0 +1,27 @@
+div {
+    background-color: rgb(43, 200, 253);
+    border-radius: 50%;
+  }
+  
+  div:nth-child(1) {
+   
+    border-color: rgb(105, 33, 33);
+  }
+  
+  div:nth-child(2) {
+   
+    background-color: rgb(169, 238, 144);
+    border-color: rgb(0, 53, 128);
+  }
+  
+  div:nth-child(3) {
+   
+    background-color: rgb(141, 141, 26);
+    border-color: rgb(255, 196, 0);
+  }
+  
+  div:nth-child(4) {
+    
+    background-color: rgb(240, 128, 160);
+    border-color: rgb(255, 80, 208);
+  }

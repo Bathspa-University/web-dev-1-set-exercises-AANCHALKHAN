@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loop Video</title>
+    <style>
+        body, html { 
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #b05a5a;
+        }
+        .video-container {
+            position: relative;
+            width: 80%; /* Adjust as needed */
+            max-width: 800px; /* Maximum width of the video */
+        }
+        video {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="video-container"> <!--main video container-->
+        <video poster="let it go pic.jpg" controls autoplay loop> <!--poster of the video-->
+            <source src="let it go.mp4" type="video/mp4"><!--video-->
+    </video>
+</body>
+</html>
